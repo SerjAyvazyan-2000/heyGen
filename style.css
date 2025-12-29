@@ -326,28 +326,19 @@ main {
   z-index: 2;
   overflow: hidden;
   transition: 0.4s;
-  background: #28282b;
+  background: #386FDE;
+
 }
 
-.btn-primary-gradient::after {
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  background: linear-gradient(90.34deg, #2b25d7 0%, #3d61f1 100%);
-  z-index: -1;
-  transition: 0.4s;
-}
+
 
 .btn-primary-gradient i {
   background: #fbfbfb;
   font-size: 20px;
 }
 
-.btn-primary-gradient:hover::after {
-  opacity: 0;
+.btn-primary-gradient:hover {
+  background: #28282b;
 }
 
 .text-blue {
